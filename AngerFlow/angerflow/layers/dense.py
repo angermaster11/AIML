@@ -18,6 +18,7 @@ class Dense(Layer):
     def build(self, input_dim):
         self.input_dim = input_dim
         self.W = (np.random.randn(input_dim, self.units)*0.01).astype(np.float32)
+        self.b = np.zeros((1,self.units),dtype=np.float32)
         self.params = [self.W, self.b]
 
     def forward(self, inputs, training=True):
@@ -30,4 +31,3 @@ class Dense(Layer):
 
     def backward(self, grad_output):
         pass
-    
