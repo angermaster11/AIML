@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Project 01 logo: three descent paths into one valley -->
+  <rect x="4" y="4" width="232" height="232" rx="44" fill="#282848"/>
+  <!-- valley contour lines -->
+  <g fill="none" stroke="#A088D8" stroke-width="3" opacity="0.45">
+    <ellipse cx="156" cy="168" rx="72" ry="29"/>
+    <ellipse cx="156" cy="168" rx="50" ry="19" opacity="0.8"/>
+    <ellipse cx="156" cy="168" rx="28" ry="10"/>
+  </g>
+  <!-- Batch GD: smooth path -->
+  <path d="M 34 44 C 80 60, 118 108, 146 152" fill="none" stroke="#5B9BFF" stroke-width="7" stroke-linecap="round"/>
+  <!-- SGD: jagged noisy path -->
+  <path d="M 52 34 L 74 62 L 62 78 L 92 96 L 84 116 L 116 128 L 110 146 L 138 158" fill="none" stroke="#FF6B5E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Mini-Batch: gently wavy path -->
+  <path d="M 84 30 C 104 66, 96 92, 118 118 C 132 135, 140 148, 150 160" fill="none" stroke="#3ED598" stroke-width="7" stroke-linecap="round"/>
+  <!-- start points -->
+  <circle cx="34" cy="44" r="7" fill="#5B9BFF"/>
+  <circle cx="52" cy="34" r="7" fill="#FF6B5E"/>
+  <circle cx="84" cy="30" r="7" fill="#3ED598"/>
+  <!-- the minimum -->
+  <circle cx="158" cy="168" r="13" fill="#F8B808"/>
+  <circle cx="158" cy="168" r="13" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</svg>

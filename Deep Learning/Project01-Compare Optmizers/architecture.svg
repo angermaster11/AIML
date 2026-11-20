@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="'Segoe UI', Arial, sans-serif">
+  <rect x="0" y="0" width="1000" height="560" fill="#FFFFFF"/>
+  <text x="500" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#282848">Project Architecture — GD vs SGD vs Mini-Batch GD</text>
+
+  <!-- Row 1: data pipeline -->
+  <g>
+    <rect x="20" y="60" width="280" height="84" rx="12" fill="#F1EDFB" stroke="#7848E0" stroke-width="2"/>
+    <text x="160" y="92" text-anchor="middle" font-size="17" font-weight="bold" fill="#282848">Covertype Dataset</text>
+    <text x="160" y="116" text-anchor="middle" font-size="14" fill="#55516E">581,012 rows · 54 features · 7 classes</text>
+    <text x="160" y="136" text-anchor="middle" font-size="14" fill="#55516E">Forest cover type prediction</text>
+
+    <rect x="360" y="60" width="280" height="84" rx="12" fill="#F1EDFB" stroke="#7848E0" stroke-width="2"/>
+    <text x="500" y="92" text-anchor="middle" font-size="17" font-weight="bold" fill="#282848">Preprocessing</text>
+    <text x="500" y="116" text-anchor="middle" font-size="14" fill="#55516E">Train/Test split 80/20 (stratified)</text>
+    <text x="500" y="136" text-anchor="middle" font-size="14" fill="#55516E">StandardScaler → Torch tensors</text>
+
+    <rect x="700" y="60" width="280" height="84" rx="12" fill="#F1EDFB" stroke="#7848E0" stroke-width="2"/>
+    <text x="840" y="92" text-anchor="middle" font-size="17" font-weight="bold" fill="#282848">ForestNet (MLP)</text>
+    <text x="840" y="116" text-anchor="middle" font-size="14" fill="#55516E">54 → 128 (ReLU) → 64 (ReLU) → 7</text>
+    <text x="840" y="136" text-anchor="middle" font-size="14" fill="#55516E">15,751 parameters · CrossEntropyLoss</text>
+
+    <path d="M 300 102 L 354 102" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <path d="M 640 102 L 694 102" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Branch lines from ForestNet to the 3 trainers -->
+  <path d="M 840 144 L 840 168 L 170 168 L 170 194" fill="none" stroke="#282848" stroke-width="2"/>
+  <path d="M 500 168 L 500 194" fill="none" stroke="#282848" stroke-width="2"/>
+  <path d="M 840 168 L 840 194" fill="none" stroke="#282848" stroke-width="2"/>
+  <path d="M 170 188 L 170 196" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M 500 188 L 500 196" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <path d="M 840 188 L 840 196" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Row 2: three trainers -->
+  <g>
+    <rect x="20" y="200" width="300" height="104" rx="12" fill="#EAF1FE" stroke="#2563EB" stroke-width="2.5"/>
+    <text x="170" y="230" text-anchor="middle" font-size="17" font-weight="bold" fill="#2563EB">Batch GD</text>
+    <text x="170" y="254" text-anchor="middle" font-size="14" fill="#33334D">Full dataset per update</text>
+    <text x="170" y="274" text-anchor="middle" font-size="14" fill="#33334D">1 update / epoch · smooth, no noise</text>
+    <text x="170" y="294" text-anchor="middle" font-size="14" fill="#33334D">θ_new = θ − η · ∇J(θ)</text>
+
+    <rect x="350" y="200" width="300" height="104" rx="12" fill="#FDECEA" stroke="#DC2626" stroke-width="2.5"/>
+    <text x="500" y="230" text-anchor="middle" font-size="17" font-weight="bold" fill="#DC2626">SGD</text>
+    <text x="500" y="254" text-anchor="middle" font-size="14" fill="#33334D">1 sample per update (5,000 subset)</text>
+    <text x="500" y="274" text-anchor="middle" font-size="14" fill="#33334D">5,000 updates / epoch · maximum noise</text>
+    <text x="500" y="294" text-anchor="middle" font-size="14" fill="#33334D">θ_new = θ − η · ∇L_i(θ)</text>
+
+    <rect x="680" y="200" width="300" height="104" rx="12" fill="#E7F7F0" stroke="#059669" stroke-width="2.5"/>
+    <text x="830" y="230" text-anchor="middle" font-size="17" font-weight="bold" fill="#059669">Mini-Batch GD</text>
+    <text x="830" y="254" text-anchor="middle" font-size="14" fill="#33334D">64 samples per update</text>
+    <text x="830" y="274" text-anchor="middle" font-size="14" fill="#33334D">7,263 updates / epoch · low noise</text>
+    <text x="830" y="294" text-anchor="middle" font-size="14" fill="#33334D">θ_new = θ − η · (1/64) · Σ ∇L_i(θ)</text>
+  </g>
+
+  <!-- Fair comparison strip -->
+  <rect x="150" y="324" width="700" height="40" rx="10" fill="#FFF7DE" stroke="#F8B808" stroke-width="2"/>
+  <text x="500" y="349" text-anchor="middle" font-size="14.5" fill="#5C4A00">Fair comparison: same initial weights · same η = 0.01 · same 10 epochs · manual updates (no optimizer)</text>
+
+  <!-- Recording -->
+  <path d="M 500 304 L 500 390" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="180" y="396" width="640" height="56" rx="12" fill="#F1EDFB" stroke="#7848E0" stroke-width="2"/>
+  <text x="500" y="420" text-anchor="middle" font-size="16" font-weight="bold" fill="#282848">Recorded at Every Step</text>
+  <text x="500" y="442" text-anchor="middle" font-size="14" fill="#55516E">Loss per epoch + per update · Gradient norms · Weight trajectory · Time</text>
+
+  <!-- Outputs -->
+  <path d="M 500 452 L 500 478" stroke="#282848" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="90" y="484" width="820" height="56" rx="12" fill="#282848"/>
+  <text x="500" y="508" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">Outputs — 5 Graphs + Final Comparison Table</text>
+  <text x="500" y="530" text-anchor="middle" font-size="14" fill="#D8D3F0">Loss vs Epoch · Loss Noise · Gradient Noise · Valley Landscape · Test Accuracy</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#282848"/>
+    </marker>
+  </defs>
+</svg>
