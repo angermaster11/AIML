@@ -61,9 +61,7 @@ graph LR
 
 **Formula of one neuron:**
 
-$$z = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b$$
-
-$$y = f(z)$$
+![Neuron formula](eq_i1.svg)
 
 - **z** = total collected signal (weighted sum + bias)
 - **b (bias)** = an extra adjustable number. It shifts the result up or down, like adjusting how easy or hard it is for the neuron to fire.
@@ -79,9 +77,7 @@ The **Perceptron** (Frank Rosenblatt, 1958) is the first and simplest artificial
 
 ### How it works
 
-$$z = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b$$
-
-$$\text{Output} = \begin{cases} 1, & z \ge 0 \\ 0, & z < 0 \end{cases}$$
+![Perceptron formula](eq_i2.svg)
 
 So a perceptron is a **binary classifier**: it answers only YES (1) or NO (0). Example questions it can answer: "Is this email spam?", "Will this student pass?"
 
@@ -96,7 +92,7 @@ graph LR
 
 ### The decision boundary (very important concept)
 
-Take a perceptron with 2 inputs. The equation $w_1 x_1 + w_2 x_2 + b = 0$ is the equation of a **straight line**. This line divides the plane into two parts:
+Take a perceptron with 2 inputs. The equation w₁x₁ + w₂x₂ + b = 0 is the equation of a **straight line**. This line divides the plane into two parts:
 
 - On one side → output 1
 - On the other side → output 0
@@ -114,7 +110,7 @@ AND gate truth table: output is 1 **only** when both inputs are 1.
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-Take weights **w₁ = 1, w₂ = 1** and bias **b = −1.5**. Now check every case, $z = x_1 + x_2 - 1.5$:
+Take weights **w₁ = 1, w₂ = 1** and bias **b = −1.5**. Now check every case, z = x₁ + x₂ − 1.5:
 
 | x₁ | x₂ | z | Output (z >= 0 → 1) | Correct? |
 |---|---|---|---|---|
@@ -129,11 +125,9 @@ The perceptron solves AND perfectly — because the AND points **can** be separa
 
 It starts with random weights. For every wrong answer, it corrects itself a little:
 
-$$w = w + \text{lr} \times (y - \hat{y}) \times x$$
+![Perceptron learning rule](eq_i3.svg)
 
-$$b = b + \text{lr} \times (y - \hat{y})$$
-
-(where lr = learning rate, $y$ = correct answer, $\hat{y}$ = predicted answer)
+(where lr = learning rate, y = correct answer, ŷ = predicted answer)
 
 - If the answer was correct → (correct − predicted) = 0 → **no change**.
 - If the answer was wrong → weights move a small step in the right direction.
@@ -313,7 +307,7 @@ In simple words: a big enough MLP can learn almost any pattern — a straight li
 
 An **activation function** is the function `f` that a neuron applies to its weighted sum `z` to produce its output:
 
-$$y = f(z), \qquad \text{where} \quad z = \sum_i w_i x_i + b$$
+![Activation function — y = f(z)](eq_i4.svg)
 
 It decides **how much the neuron should fire** for the given input — like the firing rule of a brain neuron.
 
@@ -323,10 +317,10 @@ It decides **how much the neuron should fire** for the given input — like the 
 
 Suppose we remove the activation function (or use a purely linear one, f(z) = z). Then:
 
-- Layer 1 output $= W_1 \cdot x$
-- Layer 2 output $= W_2 \cdot (W_1 \cdot x) = (W_2 W_1) \cdot x$
+- Layer 1 output = W₁ · x
+- Layer 2 output = W₂ · (W₁ · x) = (W₂W₁) · x
 
-The product $(W_2 W_1)$ is just **one single matrix**. So a 100-layer network without activation becomes equal to **one single layer** — one straight-line model, as weak as a single perceptron. It would fail on XOR and on almost all real data.
+The product (W₂W₁) is just **one single matrix**. So a 100-layer network without activation becomes equal to **one single layer** — one straight-line model, as weak as a single perceptron. It would fail on XOR and on almost all real data.
 
 > **Without non-linear activation functions, depth has no value.**
 > Activation functions are what make a stack of layers a powerful "deep" network.
@@ -335,11 +329,11 @@ The product $(W_2 W_1)$ is just **one single matrix**. So a 100-layer network wi
 
 | Function | Formula | Output Range | Main Use |
 |---|---|---|---|
-| **Step** | $1$ if $z \ge 0$, else $0$ | 0 or 1 | The original perceptron (not used in modern networks — its slope is 0, so it cannot learn by gradient) |
-| **Sigmoid** | $\dfrac{1}{1 + e^{-z}}$ | 0 to 1 | Output layer for binary classification (gives a probability) |
-| **Tanh** | $\dfrac{e^{z} - e^{-z}}{e^{z} + e^{-z}}$ | −1 to 1 | Hidden layers in older networks; zero-centred |
-| **ReLU** | $\max(0, z)$ | 0 to ∞ | **Default choice for hidden layers** in modern networks — simple, fast, learns well |
-| **Softmax** | $\dfrac{e^{z_i}}{\sum_j e^{z_j}}$ | 0 to 1, all outputs sum to 1 | Output layer for multi-class classification (probability of every class) |
+| **Step** | 1 if z >= 0, else 0 | 0 or 1 | The original perceptron (not used in modern networks — its slope is 0, so it cannot learn by gradient) |
+| **Sigmoid** | ![Sigmoid](eq_10.svg) | 0 to 1 | Output layer for binary classification (gives a probability) |
+| **Tanh** | ![Tanh](eq_16.svg) | −1 to 1 | Hidden layers in older networks; zero-centred |
+| **ReLU** | ![ReLU](eq_t1.svg) | 0 to ∞ | **Default choice for hidden layers** in modern networks — simple, fast, learns well |
+| **Softmax** | ![Softmax](eq_36.svg) | 0 to 1, all outputs sum to 1 | Output layer for multi-class classification (probability of every class) |
 
 **Simple shapes to remember:**
 
