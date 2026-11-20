@@ -164,16 +164,7 @@ XOR means "exclusive OR". Output is 1 when the inputs are **different**, and 0 w
 
 Plot the 4 points on a graph. ● = output 1, ○ = output 0:
 
-```
-        x₂
-        │
-   1 ── ● (0,1) = 1        ○ (1,1) = 0
-        │
-        │
-   0 ── ○ (0,0) = 0        ● (1,0) = 1
-        └────────────────────────── x₁
-              0                1
-```
+![XOR problem graph — the 4 points](xor_graph.svg)
 
 Now try to draw **one straight line** that separates all ● points from all ○ points.
 
