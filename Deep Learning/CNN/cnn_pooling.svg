@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="858" height="318" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="105" y="38" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">INPUT  4 × 4</text>
+<rect x="25" y="60" width="40" height="40" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1"/>
+<text x="45.0" y="85.4" font-size="15" fill="#111827" text-anchor="middle">1</text>
+<rect x="65" y="60" width="40" height="40" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1"/>
+<text x="85.0" y="85.4" font-size="15" fill="#111827" text-anchor="middle">3</text>
+<rect x="105" y="60" width="40" height="40" fill="#FCE7F3" stroke="#9CA3AF" stroke-width="1"/>
+<text x="125.0" y="85.4" font-size="15" fill="#111827" text-anchor="middle">2</text>
+<rect x="145" y="60" width="40" height="40" fill="#FCE7F3" stroke="#9CA3AF" stroke-width="1"/>
+<text x="165.0" y="85.4" font-size="15" fill="#111827" text-anchor="middle">4</text>
+<rect x="25" y="100" width="40" height="40" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1"/>
+<text x="45.0" y="125.4" font-size="15" fill="#111827" text-anchor="middle">5</text>
+<rect x="65" y="100" width="40" height="40" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1"/>
+<text x="85.0" y="125.4" font-size="15" fill="#111827" text-anchor="middle">6</text>
+<rect x="105" y="100" width="40" height="40" fill="#FCE7F3" stroke="#9CA3AF" stroke-width="1"/>
+<text x="125.0" y="125.4" font-size="15" fill="#111827" text-anchor="middle">1</text>
+<rect x="145" y="100" width="40" height="40" fill="#FCE7F3" stroke="#9CA3AF" stroke-width="1"/>
+<text x="165.0" y="125.4" font-size="15" fill="#111827" text-anchor="middle">2</text>
+<rect x="25" y="140" width="40" height="40" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="45.0" y="165.4" font-size="15" fill="#111827" text-anchor="middle">7</text>
+<rect x="65" y="140" width="40" height="40" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="85.0" y="165.4" font-size="15" fill="#111827" text-anchor="middle">2</text>
+<rect x="105" y="140" width="40" height="40" fill="#D1FAE5" stroke="#9CA3AF" stroke-width="1"/>
+<text x="125.0" y="165.4" font-size="15" fill="#111827" text-anchor="middle">8</text>
+<rect x="145" y="140" width="40" height="40" fill="#D1FAE5" stroke="#9CA3AF" stroke-width="1"/>
+<text x="165.0" y="165.4" font-size="15" fill="#111827" text-anchor="middle">3</text>
+<rect x="25" y="180" width="40" height="40" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="45.0" y="205.4" font-size="15" fill="#111827" text-anchor="middle">4</text>
+<rect x="65" y="180" width="40" height="40" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="85.0" y="205.4" font-size="15" fill="#111827" text-anchor="middle">1</text>
+<rect x="105" y="180" width="40" height="40" fill="#D1FAE5" stroke="#9CA3AF" stroke-width="1"/>
+<text x="125.0" y="205.4" font-size="15" fill="#111827" text-anchor="middle">2</text>
+<rect x="145" y="180" width="40" height="40" fill="#D1FAE5" stroke="#9CA3AF" stroke-width="1"/>
+<text x="165.0" y="205.4" font-size="15" fill="#111827" text-anchor="middle">9</text>
+<text x="330" y="38" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">MAX pool</text>
+<rect x="290" y="60" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="310.0" y="85.04" font-size="14" fill="#111827" text-anchor="middle">6</text>
+<rect x="330" y="60" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="350.0" y="85.04" font-size="14" fill="#111827" text-anchor="middle">4</text>
+<rect x="290" y="100" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="310.0" y="125.04" font-size="14" fill="#111827" text-anchor="middle">7</text>
+<rect x="330" y="100" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="350.0" y="125.04" font-size="14" fill="#111827" text-anchor="middle">9</text>
+<text x="272" y="95" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">→</text>
+<text x="520" y="38" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">AVG pool</text>
+<rect x="480" y="60" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="500.0" y="85.04" font-size="14" fill="#111827" text-anchor="middle">3.75</text>
+<rect x="520" y="60" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="540.0" y="85.04" font-size="14" fill="#111827" text-anchor="middle">2.25</text>
+<rect x="480" y="100" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="500.0" y="125.04" font-size="14" fill="#111827" text-anchor="middle">3.5</text>
+<rect x="520" y="100" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="540.0" y="125.04" font-size="14" fill="#111827" text-anchor="middle">5.5</text>
+<text x="462" y="95" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">→</text>
+<text x="710" y="38" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">MIN pool</text>
+<rect x="670" y="60" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="690.0" y="85.04" font-size="14" fill="#111827" text-anchor="middle">1</text>
+<rect x="710" y="60" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="730.0" y="85.04" font-size="14" fill="#111827" text-anchor="middle">1</text>
+<rect x="670" y="100" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="690.0" y="125.04" font-size="14" fill="#111827" text-anchor="middle">1</text>
+<rect x="710" y="100" width="40" height="40" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="730.0" y="125.04" font-size="14" fill="#111827" text-anchor="middle">2</text>
+<text x="652" y="95" font-size="20" font-weight="bold" fill="#111827" text-anchor="middle">→</text>
+<text x="430" y="262" font-size="14" fill="#111827" text-anchor="middle">A 2 × 2 window slides with stride 2. Each window of 4 numbers becomes ONE number — biggest (max), average (avg) or smallest (min).</text>
+<text x="430" y="290" font-size="14" fill="#6B7280" text-anchor="middle">Size halves: 4 × 4 → 2 × 2. Max pooling is the standard choice; min pooling is rare.</text>
+</svg>

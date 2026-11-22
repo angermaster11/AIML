@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="858" height="328" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="110" y="38" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">INPUT  5 × 5</text>
+<text x="360" y="38" font-size="16" font-weight="bold" fill="#B45309" text-anchor="middle">KERNEL  3 × 3</text>
+<text x="620" y="38" font-size="16" font-weight="bold" fill="#065F46" text-anchor="middle">FEATURE MAP  3 × 3</text>
+<rect x="25" y="60" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="42.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="59" y="60" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="76.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="93" y="60" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="110.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="127" y="60" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="144.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="161" y="60" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="178.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="25" y="94" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="42.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="59" y="94" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="76.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="93" y="94" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="110.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="127" y="94" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="144.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="161" y="94" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="178.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="25" y="128" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="42.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="59" y="128" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="76.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="93" y="128" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="110.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="127" y="128" width="34" height="34" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1"/>
+<text x="144.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="161" y="128" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="178.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="25" y="162" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="42.0" y="184.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="59" y="162" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="76.0" y="184.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="93" y="162" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="110.0" y="184.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="127" y="162" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="144.0" y="184.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="161" y="162" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="178.0" y="184.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="25" y="196" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="42.0" y="218.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="59" y="196" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="76.0" y="218.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="93" y="196" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="110.0" y="218.4" font-size="15" fill="#111827" text-anchor="middle">10</text>
+<rect x="127" y="196" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="144.0" y="218.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="161" y="196" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="178.0" y="218.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="275" y="60" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="292.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">1</text>
+<rect x="309" y="60" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="326.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="343" y="60" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="360.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">-1</text>
+<rect x="275" y="94" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="292.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">1</text>
+<rect x="309" y="94" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="326.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="343" y="94" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="360.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">-1</text>
+<rect x="275" y="128" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="292.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">1</text>
+<rect x="309" y="128" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="326.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="343" y="128" width="34" height="34" fill="#FDE68A" stroke="#9CA3AF" stroke-width="1"/>
+<text x="360.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">-1</text>
+<rect x="535" y="60" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="552.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="569" y="60" width="34" height="34" fill="#A7F3D0" stroke="#9CA3AF" stroke-width="1"/>
+<text x="586.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">30</text>
+<rect x="603" y="60" width="34" height="34" fill="#A7F3D0" stroke="#9CA3AF" stroke-width="1"/>
+<text x="620.0" y="82.4" font-size="15" fill="#111827" text-anchor="middle">30</text>
+<rect x="535" y="94" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="552.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="569" y="94" width="34" height="34" fill="#A7F3D0" stroke="#9CA3AF" stroke-width="1"/>
+<text x="586.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">30</text>
+<rect x="603" y="94" width="34" height="34" fill="#A7F3D0" stroke="#9CA3AF" stroke-width="1"/>
+<text x="620.0" y="116.4" font-size="15" fill="#111827" text-anchor="middle">30</text>
+<rect x="535" y="128" width="34" height="34" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="1"/>
+<text x="552.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">0</text>
+<rect x="569" y="128" width="34" height="34" fill="#A7F3D0" stroke="#9CA3AF" stroke-width="1"/>
+<text x="586.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">30</text>
+<rect x="603" y="128" width="34" height="34" fill="#A7F3D0" stroke="#9CA3AF" stroke-width="1"/>
+<text x="620.0" y="150.4" font-size="15" fill="#111827" text-anchor="middle">30</text>
+<text x="250" y="125" font-size="24" font-weight="bold" fill="#111827" text-anchor="middle">×</text>
+<text x="500" y="125" font-size="24" font-weight="bold" fill="#111827" text-anchor="middle">=</text>
+<text x="110" y="272" font-size="14" fill="#6B7280" text-anchor="middle">bright left (10) · dark right (0)</text>
+<text x="360" y="272" font-size="14" fill="#6B7280" text-anchor="middle">vertical-edge detector</text>
+<text x="620" y="272" font-size="14" fill="#6B7280" text-anchor="middle">0 = no edge &#160;·&#160; 30 = edge found</text>
+<text x="430" y="308" font-size="14" fill="#111827" text-anchor="middle">The kernel slides over the image; at every stop it multiplies the patch point-by-point and adds all 9 products into ONE number.</text>
+</svg>
