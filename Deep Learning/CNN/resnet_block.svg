@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="858" height="378" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="430" y="40" font-size="17" font-weight="bold" fill="#111827" text-anchor="middle">THE RESIDUAL BLOCK — one extra road changes everything</text>
+<rect x="330" y="70" width="200" height="46" rx="9" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2"/>
+<text x="430.0" y="98.4" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">input  x</text>
+<text x="430" y="140" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="330" y="148" width="200" height="46" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="430.0" y="176.4" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv → BN → ReLU</text>
+<text x="430" y="218" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="330" y="226" width="200" height="46" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="430.0" y="254.4" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv → BN</text>
+<text x="430" y="296" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<circle cx="430" cy="322" r="17" fill="#D1FAE5" stroke="#059669" stroke-width="2.5"/>
+<text x="430" y="328" font-size="19" font-weight="bold" fill="#111827" text-anchor="middle">+</text>
+<path d="M 330 93 L 120 93 L 120 322 L 408 322" fill="none" stroke="#059669" stroke-width="3"/>
+<text x="62" y="200" font-size="14" font-weight="bold" fill="#059669" text-anchor="middle">SKIP</text>
+<text x="62" y="220" font-size="14" font-weight="bold" fill="#059669" text-anchor="middle">CONNECTION</text>
+<text x="120" y="345" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">x travels untouched</text>
+<text x="640" y="170" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">the conv path learns</text>
+<text x="640" y="192" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">F(x) = the CHANGE</text>
+<text x="640" y="214" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">output = F(x) + x</text>
+<text x="640" y="322" font-size="14" font-weight="bold" fill="#111827" text-anchor="middle">→ ReLU → out</text>
+</svg>

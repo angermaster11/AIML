@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 622" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="778" height="620" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="390.0" y="40" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle">LeNet-5 (1998) — the first famous CNN</text>
+<rect x="130" y="62" width="520" height="52" rx="9" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2"/>
+<text x="390.0" y="84.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">INPUT</text>
+<text x="390.0" y="105.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (1, 32, 32) · handwritten digit, padded to 32</text>
+<text x="390.0" y="128" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="124" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="146.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">C1: Conv 6 filters 5×5 + tanh</text>
+<text x="390.0" y="167.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (6, 28, 28) · 156 params</text>
+<text x="390.0" y="190" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="186" width="520" height="52" rx="9" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="390.0" y="208.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">S2: Avg Pool 2×2</text>
+<text x="390.0" y="229.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (6, 14, 14) · size halves</text>
+<text x="390.0" y="252" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="248" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="270.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">C3: Conv 16 filters 5×5 + tanh</text>
+<text x="390.0" y="291.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (16, 10, 10) · 2,416 params</text>
+<text x="390.0" y="314" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="310" width="520" height="52" rx="9" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="390.0" y="332.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">S4: Avg Pool 2×2</text>
+<text x="390.0" y="353.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (16, 5, 5) · size halves</text>
+<text x="390.0" y="376" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="372" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="394.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">C5: Conv 120 filters 5×5</text>
+<text x="390.0" y="415.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (120, 1, 1) · 48,120 params — works like a full layer</text>
+<text x="390.0" y="438" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="434" width="520" height="52" rx="9" fill="#EDE9FE" stroke="#7848E0" stroke-width="2"/>
+<text x="390.0" y="456.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">F6: Fully Connected 84</text>
+<text x="390.0" y="477.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: 84 · 10,164 params</text>
+<text x="390.0" y="500" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="496" width="520" height="52" rx="9" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+<text x="390.0" y="518.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">OUTPUT: 10 classes</text>
+<text x="390.0" y="539.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: 10 · 850 params</text>
+<text x="390.0" y="576" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Total: ≈ 61,706 parameters (modern full-connection count)</text>
+</svg>

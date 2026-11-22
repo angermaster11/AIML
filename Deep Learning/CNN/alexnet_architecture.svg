@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 870" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="778" height="868" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="390.0" y="40" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle">AlexNet (2012) — the network that started the deep learning boom</text>
+<rect x="130" y="62" width="520" height="52" rx="9" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2"/>
+<text x="390.0" y="84.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">INPUT</text>
+<text x="390.0" y="105.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (3, 227, 227) · colour image</text>
+<text x="390.0" y="128" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="124" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="146.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv 96 filters 11×11, stride 4 + ReLU</text>
+<text x="390.0" y="167.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (96, 55, 55) · 34,944 params</text>
+<text x="390.0" y="190" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="186" width="520" height="52" rx="9" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="390.0" y="208.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Max Pool 3×3, stride 2</text>
+<text x="390.0" y="229.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (96, 27, 27) · overlapping pool</text>
+<text x="390.0" y="252" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="248" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="270.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv 256 filters 5×5, pad 2 + ReLU</text>
+<text x="390.0" y="291.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (256, 27, 27) · 614,656 params</text>
+<text x="390.0" y="314" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="310" width="520" height="52" rx="9" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="390.0" y="332.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Max Pool 3×3, stride 2</text>
+<text x="390.0" y="353.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (256, 13, 13) · </text>
+<text x="390.0" y="376" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="372" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="394.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv 384 filters 3×3, pad 1 + ReLU</text>
+<text x="390.0" y="415.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (384, 13, 13) · 885,120 params</text>
+<text x="390.0" y="438" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="434" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="456.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv 384 filters 3×3, pad 1 + ReLU</text>
+<text x="390.0" y="477.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (384, 13, 13) · 1,327,488 params</text>
+<text x="390.0" y="500" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="496" width="520" height="52" rx="9" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="390.0" y="518.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Conv 256 filters 3×3, pad 1 + ReLU</text>
+<text x="390.0" y="539.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: (256, 13, 13) · 884,992 params</text>
+<text x="390.0" y="562" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="558" width="520" height="52" rx="9" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="390.0" y="580.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Max Pool 3×3, stride 2 → Flatten</text>
+<text x="390.0" y="601.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: 9,216 · 256 × 6 × 6</text>
+<text x="390.0" y="624" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="620" width="520" height="52" rx="9" fill="#EDE9FE" stroke="#7848E0" stroke-width="2"/>
+<text x="390.0" y="642.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">FC 4096 + ReLU + Dropout</text>
+<text x="390.0" y="663.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: 4,096 · 37,752,832 params</text>
+<text x="390.0" y="686" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="682" width="520" height="52" rx="9" fill="#EDE9FE" stroke="#7848E0" stroke-width="2"/>
+<text x="390.0" y="704.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">FC 4096 + ReLU + Dropout</text>
+<text x="390.0" y="725.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: 4,096 · 16,781,312 params</text>
+<text x="390.0" y="748" font-size="17" font-weight="normal" fill="#111827" text-anchor="middle">↓</text>
+<rect x="130" y="744" width="520" height="52" rx="9" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+<text x="390.0" y="766.0" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">FC 1000 + Softmax</text>
+<text x="390.0" y="787.0" font-size="12.5" font-weight="normal" fill="#374151" text-anchor="middle">output: 1,000 classes · 4,097,000 params</text>
+<text x="390.0" y="824" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Total: ≈ 62.4 million parameters</text>
+</svg>

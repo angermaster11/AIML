@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 330" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="1178" height="328" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="590" y="40" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle">VGG-16 — only 3 × 3 convolutions, five blocks, pool after every block</text>
+<rect x="30" y="70" width="168" height="120" rx="10" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2"/>
+<text x="114" y="102" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">BLOCK 1</text>
+<text x="114" y="128" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">2 × conv 64</text>
+<text x="114" y="150" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">224 → 224</text>
+<text x="114" y="172" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">pool → 112</text>
+<text x="212" y="140" font-size="20" font-weight="normal" fill="#111827" text-anchor="middle">→</text>
+<rect x="222" y="70" width="168" height="120" rx="10" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+<text x="306" y="102" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">BLOCK 2</text>
+<text x="306" y="128" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">2 × conv 128</text>
+<text x="306" y="150" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">112 → 112</text>
+<text x="306" y="172" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">pool → 56</text>
+<text x="404" y="140" font-size="20" font-weight="normal" fill="#111827" text-anchor="middle">→</text>
+<rect x="414" y="70" width="168" height="120" rx="10" fill="#FCE7F3" stroke="#9D174D" stroke-width="2"/>
+<text x="498" y="102" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">BLOCK 3</text>
+<text x="498" y="128" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">3 × conv 256</text>
+<text x="498" y="150" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">56 → 56</text>
+<text x="498" y="172" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">pool → 28</text>
+<text x="596" y="140" font-size="20" font-weight="normal" fill="#111827" text-anchor="middle">→</text>
+<rect x="606" y="70" width="168" height="120" rx="10" fill="#EDE9FE" stroke="#7848E0" stroke-width="2"/>
+<text x="690" y="102" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">BLOCK 4</text>
+<text x="690" y="128" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">3 × conv 512</text>
+<text x="690" y="150" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">28 → 28</text>
+<text x="690" y="172" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">pool → 14</text>
+<text x="788" y="140" font-size="20" font-weight="normal" fill="#111827" text-anchor="middle">→</text>
+<rect x="798" y="70" width="168" height="120" rx="10" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+<text x="882" y="102" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">BLOCK 5</text>
+<text x="882" y="128" font-size="14" font-weight="normal" fill="#111827" text-anchor="middle">3 × conv 512</text>
+<text x="882" y="150" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">14 → 14</text>
+<text x="882" y="172" font-size="13" font-weight="normal" fill="#6B7280" text-anchor="middle">pool → 7</text>
+<text x="980" y="140" font-size="20" font-weight="normal" fill="#111827" text-anchor="middle">→</text>
+<rect x="990" y="70" width="150" height="120" rx="10" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+<text x="1065" y="102" font-size="15" font-weight="bold" fill="#F9FAFB" text-anchor="middle">FC HEAD</text>
+<text x="1065" y="128" font-size="13.5" font-weight="normal" fill="#E5E7EB" text-anchor="middle">4096 → 4096</text>
+<text x="1065" y="150" font-size="13.5" font-weight="normal" fill="#E5E7EB" text-anchor="middle">→ 1000 classes</text>
+<text x="1065" y="172" font-size="12.5" font-weight="normal" fill="#9CA3AF" text-anchor="middle">flatten 25,088</text>
+<text x="590" y="232" font-size="14.5" font-weight="normal" fill="#111827" text-anchor="middle">Every conv is 3 × 3, stride 1, padding 1 — the size never changes inside a block; only the pool halves it.</text>
+<text x="590" y="262" font-size="14.5" font-weight="normal" fill="#111827" text-anchor="middle">Channels double after every pool: 64 → 128 → 256 → 512 → 512. Depth does the work, not kernel size.</text>
+<text x="590" y="296" font-size="15" font-weight="bold" fill="#111827" text-anchor="middle">Total: 138,357,544 parameters — of which the FC head alone holds 123.6 million (89%).</text>
+</svg>
