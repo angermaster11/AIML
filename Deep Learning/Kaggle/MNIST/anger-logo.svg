@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="320" viewBox="0 0 300 320">
+  <!-- outer flame -->
+  <path d="M150 8 C162 48 208 74 214 128 C219 176 190 216 150 216 C110 216 81 176 86 128 C90 92 108 68 124 50 C123 78 130 94 140 102 C134 66 136 34 150 8 Z" fill="#E64A19"/>
+  <!-- middle flame -->
+  <path d="M150 66 C158 92 184 108 187 140 C189 172 172 198 150 198 C128 198 111 172 113 140 C115 114 128 98 138 86 C137 104 141 114 147 120 C143 96 144 78 150 66 Z" fill="#FB8C00"/>
+  <!-- inner flame -->
+  <path d="M150 118 C156 134 168 144 169 160 C170 180 162 194 150 194 C138 194 130 180 131 160 C132 144 140 132 146 124 C145 136 147 143 150 147 C148 134 148 124 150 118 Z" fill="#FFD54F"/>
+  <!-- angry-cute eyebrows -->
+  <path d="M112 128 L140 138" stroke="#4E2600" stroke-width="6" stroke-linecap="round"/>
+  <path d="M188 128 L160 138" stroke="#4E2600" stroke-width="6" stroke-linecap="round"/>
+  <!-- eyes -->
+  <circle cx="128" cy="150" r="7" fill="#4E2600"/>
+  <circle cx="172" cy="150" r="7" fill="#4E2600"/>
+  <circle cx="130.5" cy="147.5" r="2.4" fill="#FFFFFF"/>
+  <circle cx="174.5" cy="147.5" r="2.4" fill="#FFFFFF"/>
+  <!-- cheeks -->
+  <circle cx="106" cy="166" r="8" fill="#FFAB91" opacity="0.85"/>
+  <circle cx="194" cy="166" r="8" fill="#FFAB91" opacity="0.85"/>
+  <!-- determined little mouth -->
+  <path d="M138 176 Q150 168 162 176" stroke="#4E2600" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- wordmark -->
+  <text x="150" y="272" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-size="52" font-weight="900" letter-spacing="6" fill="#C62828">ANGER</text>
+  <text x="150" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#6D4C41">LEARN • BUILD • PREDICT</text>
+</svg>
