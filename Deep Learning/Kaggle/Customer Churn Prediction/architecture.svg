@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="230" viewBox="0 0 1060 230">
+  <rect x="0" y="0" width="1060" height="230" fill="#FFFFFF"/>
+  <text x="530" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#212121">CustomerNet — Model Architecture (11 → 128 → 64 → 32 → 1)</text>
+
+  <!-- Input -->
+  <rect x="15" y="70" width="150" height="110" rx="12" fill="#E3F2FD" stroke="#1565C0" stroke-width="2"/>
+  <text x="90" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0D47A1">INPUT</text>
+  <text x="90" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212121">11 features</text>
+  <text x="90" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">one customer</text>
+  <text x="90" y="167" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">= one row</text>
+
+  <!-- arrow -->
+  <path d="M165 125 L192 125" stroke="#424242" stroke-width="2.5"/>
+  <path d="M192 118 L204 125 L192 132 Z" fill="#424242"/>
+
+  <!-- Hidden 1 -->
+  <rect x="204" y="70" width="170" height="110" rx="12" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+  <text x="289" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#BF360C">DENSE 1</text>
+  <text x="289" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212121">128 neurons • ReLU</text>
+  <text x="289" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">weights 11×128 = 1,408</text>
+  <text x="289" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">biases 128 → 1,536 params</text>
+
+  <path d="M374 125 L401 125" stroke="#424242" stroke-width="2.5"/>
+  <path d="M401 118 L413 125 L401 132 Z" fill="#424242"/>
+
+  <!-- Hidden 2 -->
+  <rect x="413" y="70" width="170" height="110" rx="12" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+  <text x="498" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#BF360C">DENSE 2</text>
+  <text x="498" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212121">64 neurons • ReLU</text>
+  <text x="498" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">weights 128×64 = 8,192</text>
+  <text x="498" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">biases 64 → 8,256 params</text>
+
+  <path d="M583 125 L610 125" stroke="#424242" stroke-width="2.5"/>
+  <path d="M610 118 L622 125 L610 132 Z" fill="#424242"/>
+
+  <!-- Hidden 3 -->
+  <rect x="622" y="70" width="170" height="110" rx="12" fill="#FFF3E0" stroke="#E65100" stroke-width="2"/>
+  <text x="707" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#BF360C">DENSE 3</text>
+  <text x="707" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212121">32 neurons • ReLU</text>
+  <text x="707" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">weights 64×32 = 2,048</text>
+  <text x="707" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">biases 32 → 2,080 params</text>
+
+  <path d="M792 125 L819 125" stroke="#424242" stroke-width="2.5"/>
+  <path d="M819 118 L831 125 L819 132 Z" fill="#424242"/>
+
+  <!-- Output -->
+  <rect x="831" y="70" width="150" height="110" rx="12" fill="#FFEBEE" stroke="#C62828" stroke-width="2"/>
+  <text x="906" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#B71C1C">OUTPUT</text>
+  <text x="906" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212121">1 neuron • Sigmoid</text>
+  <text x="906" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">weights 32×1 = 32</text>
+  <text x="906" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#616161">bias 1 → 33 params</text>
+
+  <text x="530" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#212121">Output = churn probability (0 to 1) • Total: 11,680 weights + 225 biases = 11,905 parameters</text>
+</svg>
