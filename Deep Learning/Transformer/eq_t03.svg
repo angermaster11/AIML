@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="436.442344pt" height="130.773574pt" viewBox="0 0 436.442344 130.773574" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="388.409766pt" height="122.802849pt" viewBox="0 0 388.409766 122.802849" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-22T11:32:49.854345</dc:date>
+    <dc:date>2026-11-22T11:46:51.550400</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,16 +21,16 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 130.773574 
-L 436.442344 130.773574 
-L 436.442344 0 
+   <path d="M 0 122.802849 
+L 388.409766 122.802849 
+L 388.409766 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="text_1">
    <!-- $\mathrm{head}_{i} = \mathrm{Attention}(Q W_{i}^{Q},\, K W_{i}^{K},\, V W_{i}^{V})$ -->
-   <g style="fill: #111827" transform="translate(51.211172 30.03) scale(0.19 -0.19)">
+   <g style="fill: #111827" transform="translate(49.169883 27.405) scale(0.165 -0.165)">
     <defs>
      <path id="DejaVuSans-4b" d="M 3513 2113 
 L 3513 0 
@@ -394,7 +394,7 @@ z
   </g>
   <g id="text_2">
    <!-- $\mathrm{MultiHead} = \mathrm{Concat}(\mathrm{head}_{1}, \ldots, \mathrm{head}_{h}) \, W^{O}$ -->
-   <g style="fill: #111827" transform="translate(24.896172 74.29444) scale(0.19 -0.19)">
+   <g style="fill: #111827" transform="translate(26.317383 69.003066) scale(0.165 -0.165)">
     <defs>
      <path id="DejaVuSans-30" d="M 628 4666 
 L 1569 4666 
@@ -621,7 +621,7 @@ z
   </g>
   <g id="text_3">
    <!-- har head ki apni W matrices · sabke outputs jud ke ek bante hai -->
-   <g style="fill: #4b5563" transform="translate(10.08 117.570528) scale(0.13 -0.13)">
+   <g style="fill: #4b5563" transform="translate(10.08 109.960154) scale(0.115 -0.115)">
     <defs>
      <path id="DejaVuSans-55" d="M 2631 2963 
 Q 2534 3019 2420 3045 

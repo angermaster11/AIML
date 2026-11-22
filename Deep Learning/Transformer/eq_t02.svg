@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="557.577969pt" height="92.878578pt" viewBox="0 0 557.577969 92.878578" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="495.568203pt" height="87.016708pt" viewBox="0 0 495.568203 87.016708" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-22T11:32:49.788143</dc:date>
+    <dc:date>2026-11-22T11:46:51.484239</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,16 +21,16 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 92.878578 
-L 557.577969 92.878578 
-L 557.577969 0 
+   <path d="M 0 87.016708 
+L 495.568203 87.016708 
+L 495.568203 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="text_1">
    <!-- $\mathrm{Attention}(Q, K, V) = \mathrm{softmax}\left( \frac{Q K^{T}}{\sqrt{d_{k}}} \right) V$ -->
-   <g style="fill: #111827" transform="translate(115.198984 30.79) scale(0.19 -0.19)">
+   <g style="fill: #111827" transform="translate(105.719102 28.065) scale(0.165 -0.165)">
     <defs>
      <path id="DejaVuSans-24" d="M 2188 4044 
 L 1331 1722 
@@ -530,7 +530,7 @@ z
   </g>
   <g id="text_2">
    <!-- pehle match (QK^T) · phir scale · phir softmax se weights · aakhir me weights × V -->
-   <g style="fill: #4b5563" transform="translate(10.08 79.675532) scale(0.13 -0.13)">
+   <g style="fill: #4b5563" transform="translate(10.08 74.174013) scale(0.115 -0.115)">
     <defs>
      <path id="DejaVuSans-53" d="M 1159 525 
 L 1159 -1331 

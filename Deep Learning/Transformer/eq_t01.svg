@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="541.961719pt" height="86.610805pt" viewBox="0 0 541.961719 86.610805" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="481.753828pt" height="81.573642pt" viewBox="0 0 481.753828 81.573642" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-22T11:32:49.717672</dc:date>
+    <dc:date>2026-11-22T11:46:51.429284</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,16 +21,16 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 86.610805 
-L 541.961719 86.610805 
-L 541.961719 0 
+   <path d="M 0 81.573642 
+L 481.753828 81.573642 
+L 481.753828 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="text_1">
    <!-- $Q = X W^{Q} \qquad K = X W^{K} \qquad V = X W^{V}$ -->
-   <g style="fill: #111827" transform="translate(114.135859 27.94) scale(0.19 -0.19)">
+   <g style="fill: #111827" transform="translate(104.669414 25.59) scale(0.165 -0.165)">
     <defs>
      <path id="DejaVuSans-Oblique-34" d="M 2309 -84 
 Q 2275 -88 2237 -89 
@@ -152,7 +152,7 @@ z
   </g>
   <g id="text_2">
    <!-- teen alag learned matrices · teeno ka source ek hi X hai — isiliye SELF-attention -->
-   <g style="fill: #4b5563" transform="translate(10.08 73.407758) scale(0.13 -0.13)">
+   <g style="fill: #4b5563" transform="translate(10.08 68.730946) scale(0.115 -0.115)">
     <defs>
      <path id="DejaVuSans-57" d="M 1172 4494 
 L 1172 3500 
