@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="638" height="438" rx="10" fill="#FFFFFF" stroke="#D1D5DB"/>
+<text x="320" y="38" font-size="16.5" font-weight="bold" fill="#111827" text-anchor="middle">ATTENTION WEIGHTS — kaun kisko kitna dekh raha hai</text>
+<text x="320" y="64" font-size="13.5" font-weight="normal" fill="#6B7280" text-anchor="middle">dhyaan kiske upar →</text>
+<text x="218.0" y="84" font-size="1" font-weight="normal" fill="#111827" text-anchor="middle"></text>
+<text x="218.0" y="96" font-size="14.5" font-weight="bold" fill="#111827" text-anchor="middle">dog</text>
+<text x="314.0" y="84" font-size="1" font-weight="normal" fill="#111827" text-anchor="middle"></text>
+<text x="314.0" y="96" font-size="14.5" font-weight="bold" fill="#111827" text-anchor="middle">runs</text>
+<text x="410.0" y="84" font-size="1" font-weight="normal" fill="#111827" text-anchor="middle"></text>
+<text x="410.0" y="96" font-size="14.5" font-weight="bold" fill="#111827" text-anchor="middle">fast</text>
+<text x="156" y="157.0" font-size="14.5" font-weight="bold" fill="#111827" text-anchor="end">dog</text>
+<rect x="173" y="107" width="90" height="90" rx="8" fill="#7848E0"/>
+<text x="218.0" y="158.0" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">0.74</text>
+<rect x="269" y="107" width="90" height="90" rx="8" fill="rgb(232,223,255)"/>
+<text x="314.0" y="158.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.13</text>
+<rect x="365" y="107" width="90" height="90" rx="8" fill="rgb(232,223,255)"/>
+<text x="410.0" y="158.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.13</text>
+<text x="156" y="253.0" font-size="14.5" font-weight="bold" fill="#111827" text-anchor="end">runs</text>
+<rect x="173" y="203" width="90" height="90" rx="8" fill="rgb(188,182,255)"/>
+<text x="218.0" y="254.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.39</text>
+<rect x="269" y="203" width="90" height="90" rx="8" fill="rgb(188,182,255)"/>
+<text x="314.0" y="254.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.39</text>
+<rect x="365" y="203" width="90" height="90" rx="8" fill="rgb(217,209,255)"/>
+<text x="410.0" y="254.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.22</text>
+<text x="156" y="349.0" font-size="14.5" font-weight="bold" fill="#111827" text-anchor="end">fast</text>
+<rect x="173" y="299" width="90" height="90" rx="8" fill="rgb(231,222,255)"/>
+<text x="218.0" y="350.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.14</text>
+<rect x="269" y="299" width="90" height="90" rx="8" fill="rgb(241,231,255)"/>
+<text x="314.0" y="350.0" font-size="16" font-weight="bold" fill="#111827" text-anchor="middle">0.08</text>
+<rect x="365" y="299" width="90" height="90" rx="8" fill="#7848E0"/>
+<text x="410.0" y="350.0" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">0.78</text>
+<text x="320" y="420" font-size="13.5" font-weight="normal" fill="#6B7280" text-anchor="middle">har ROW ka jod = 1 · jitna gehra rang, utna zyada dhyaan</text>
+</svg>
